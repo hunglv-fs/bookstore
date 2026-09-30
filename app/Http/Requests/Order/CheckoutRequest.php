@@ -22,7 +22,7 @@ class CheckoutRequest extends FormRequest
             // Only one of the customer's own addresses (a foreign id looks like a missing one).
             'address_id' => [
                 'required', 'integer', 'min:1',
-                Rule::exists('customer_addresses', 'id')->where('customer_id', $this->user()->customer?->id),
+                Rule::exists('customer_addresses', 'id')->where('customer_id', $this->user()?->customer?->id),
             ],
             'note' => ['nullable', 'string', 'max:1000'],
             // Defaults to COD, the only method available in the MVP.

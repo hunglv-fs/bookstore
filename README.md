@@ -9,6 +9,7 @@ REST API bán sách online — Laravel 12, PHP 8.4, PostgreSQL 17, Sanctum.
 | [docs/api.md](docs/api.md) | Mọi endpoint: request, response, lỗi |
 | [docs/database.md](docs/database.md) | Bảng, quan hệ, constraint, index và query mà index phục vụ |
 | [docs/architecture.md](docs/architecture.md) | Các tầng, flow checkout, transaction, row lock, chống race condition |
+| Swagger UI: `http://localhost:8000/docs/api` | Tự sinh từ code (Scramble), gọi thử được endpoint. Spec OpenAPI: `/docs/api.json`. Chỉ mở khi `APP_ENV=local` |
 
 ## Yêu cầu
 

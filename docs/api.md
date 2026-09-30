@@ -2,6 +2,7 @@
 
 Base URL: `http://localhost:8000/api`. Mọi response là JSON.
 Tài liệu này bao gồm toàn bộ endpoint của MVP.
+Swagger UI (tự sinh từ code, gọi thử được): `http://localhost:8000/docs/api` — bấm **Authorize** và dán token lấy từ `/login`.
 
 ## Quy ước
 
